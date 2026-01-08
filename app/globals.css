@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+
+:root {
+    --primary: #15803d;
+    --secondary: #0ea5e9;
+    --background: #f0fdf4;
+}
+body {
+    font-family: 'Public Sans', sans-serif;
+    background-color: var(--background);
+}
+h1, h2, h3, h4 {
+    font-family: 'Outfit', sans-serif;
+}
+.glass {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}

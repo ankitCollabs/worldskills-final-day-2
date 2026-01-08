@@ -10,4 +10,7 @@ datasource db {
 model Leads {
   id String @id @default(uuid())
   name  String
+  email String
+  mobileNumber  String
+  city    String
 }
