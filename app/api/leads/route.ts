@@ -25,3 +25,13 @@ export async function POST(req:Request){
         })
     }
 }
+
+
+export async function GET(){
+    const data = await prisma.leads.findMany({});
+
+    return Response.json({
+        message: "Here are all the leads Data",
+        leads: data
+    })
+}
