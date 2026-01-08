@@ -42,7 +42,7 @@ export default function RegisterPage(){
     }
 
     return(
-        <main className="min-h-screen flex flex-col justify-center items-center bg-slate-50">
+        <main className="min-h-screen flex flex-col justify-center items-center bg-slate-50 mt-14">
             <section className="flex flex-col md:flex-row justify-center items-center h-full gap-10 px-20 py-10">
                 <div className="contact-form bg-slate-900 text-white border border-green-100 py-5 px-10 rounded-2xl  shadow-xl h-full">
                     <h1 className="text-2xl font-medium text-center">Registration Form</h1>
