@@ -15,10 +15,10 @@ export const Navbar = ()=>{
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
                             </svg>
                         </div>
-                        <div>
+                        <Link href={"/"}>
                             <span className="block text-xl font-bold tracking-tight">EV Odisha</span>
                             <span className="block text-[10px] uppercase tracking-[0.2em] font-semibold text-green-700">Drive the Future</span>
-                        </div>
+                        </Link>
                     </div>
                     <div className="hidden md:flex items-center gap-8 font-medium text-slate-600">
                         <a href="#" className="hover:text-green-600 transition-colors">Home</a>
